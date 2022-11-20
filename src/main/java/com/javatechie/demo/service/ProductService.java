@@ -30,10 +30,6 @@ public class ProductService {
 		
 		return productrepository.findById(pid).orElse(null);
 	}
-           public Product getProductByPname(String pname) {
-		
-		return productrepository.
-	}
            public String deleteProduct(int pid) {
        		
   				productrepository.deleteById(pid);
